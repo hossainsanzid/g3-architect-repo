@@ -3,3 +3,65 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    max-width: 1520px;
+    height: 100%;
+    border: 1px solid dodgerblue;
+    margin: 0 auto;
+    font-family: "Work Sans", sans-serif;;
+}
+/* header section style */
+header{
+    background-color: antiquewhite;
+    margin-bottom: 30px;   
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+    padding: 0 20px;
+}
+/* common thing */
+.heading-three{
+    font-size: 40px;
+}
+.click{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 50px;
+}
+.click li{
+    list-style-type: none;
+}
+.click li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: medium;
+    line-height: 26px;
+    color: black;
+}
+.brand{
+    text-align: center;
+}
+.btn{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #FF900E;
+    border-color: #FF900E;
+    color: #ffffff;
+}
+h1, p{
+    padding: 20px 370px;
+}
+h1{
+    font-size: 64px;
+    font-weight: bold;
+}
+.brand img{
+    width: 50%;
+    margin-bottom: 10px;   
+}
