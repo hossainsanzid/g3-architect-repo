@@ -3,65 +3,89 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
-    max-width: 1520px;
-    height: 100%;
-    border: 1px solid dodgerblue;
-    margin: 0 auto;
-    font-family: "Work Sans", sans-serif;;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    
 }
-/* header section style */
-header{
-    background-color: antiquewhite;
-    margin-bottom: 30px;   
-}
-.main-nav{
+/* color
+1..dark-2 #424242 
+2..dark-1 #131313
+3..dark-3 #727272
+*/
+
+
+
+
+
+/* common style */
+
+.container, ul{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 0 5px;
-    padding: 0 20px;
+    
 }
-/* common thing */
-.heading-three{
-    font-size: 40px;
+.title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+
 }
-.click{
-    display: flex;
-    /* justify-content: space-between; */
-    gap: 50px;
+.description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #727272;
 }
-.click li{
-    list-style-type: none;
-}
-.click li a{
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: medium;
-    line-height: 26px;
-    color: black;
-}
-.brand{
-    text-align: center;
-}
-.btn{
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    padding: 10px;
-    border-radius: 5px;
+.primary-btn{
+    padding: 20px 24px;
     background-color: #FF900E;
-    border-color: #FF900E;
-    color: #ffffff;
-}
-h1, p{
-    padding: 20px 370px;
-}
-h1{
-    font-size: 64px;
-    font-weight: bold;
+    border-radius: 8px;
+    color: white;
+    border: none;
 }
 .brand img{
-    width: 50%;
-    margin-bottom: 10px;   
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 25px;
 }
+/* header style */
+header{
+    background-color: beige;
+}
+.nav{
+    justify-content: space-between;
+    margin: 0 160px;
+}
+.nav-tool ul li{
+    list-style: none;
+    padding: 0 20px;
+
+}
+.nav-tool ul li a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 26px;
+    color: #424242; 
+
+}
+.brand{
+    max-width: 862px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0;
+    
+}
+.brand-title{
+    margin: 10px 0;
+    font-size: 4rem;
+    font-weight: 700px;
+}
+.description-title{
+    margin-bottom: 10px;
+    padding: 0 20px;
+}
+
+/* main style */
+/* footer style */
