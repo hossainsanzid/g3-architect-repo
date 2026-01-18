@@ -89,3 +89,40 @@ header{
 
 /* main style */
 /* footer style */
+
+
+/* responsive for small device */
+@media (max-width: 576px) {
+    .container,
+    ul{
+        flex-direction: column;
+
+    
+    
+}
+.brand img{
+    width: 100%;
+}
+.nav container{
+    margin-right: 0;
+}
+.brand-title{
+    font-size: 2rem;
+}
+.nav-tool ul li{
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    background-color: #424242;
+    border-radius: 10px;
+}
+.nav-tool ul li a{
+    color: white;
+}
+.title{
+    font-size: 2rem;
+    margin: 20px 10px;
+}
+
+
+}
