@@ -126,4 +126,16 @@ header{
     flex-direction: column;
 
 }
-
+.brand img{
+    width: 100%;
+}
+.nav-tool ul li{
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    background-color: #424242;
+    border-radius: 10px;
+}
+.nav-tool ul li a{
+    color: white;
+}
