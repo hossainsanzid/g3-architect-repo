@@ -68,7 +68,6 @@ header{
     font-weight: 500;
     line-height: 26px;
     color: #424242; 
-
 }
 .brand{
     max-width: 862px;
@@ -95,10 +94,7 @@ header{
 @media (max-width: 576px) {
     .container,
     ul{
-        flex-direction: column;
-
-    
-    
+        flex-direction: column;    
 }
 .brand img{
     width: 100%;
@@ -123,6 +119,11 @@ header{
     font-size: 2rem;
     margin: 20px 10px;
 }
-
+}
+/* responsive for large phone or tablet */
+@media (min-width:576px) and (max-width:1024px) {
+.container, ul{
+    flex-direction: column;
 
 }
+
