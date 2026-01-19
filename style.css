@@ -87,15 +87,54 @@ header{
 }
 
 /* main style */
+/* our feature section style */
+.our-features{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    gap: 30px;
+    margin: 40px 150px;
+
+}
+.box-one{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+.our-features-title{
+    padding: 0px 0px;
+    font: 3rem;
+    font-weight: 500;
+
+}
+.our-features-description{
+    font-size: 1rem;
+    line-height: 26px;
+    font-family: 400;
+    padding: 15px 0;
+}
+.color{
+    color: #727272;
+}
+#color-orange{
+    font-weight: 700;
+    color: #FF900E;
+    
+}
 /* footer style */
 
 
 /* responsive for small device */
 @media (max-width: 576px) {
     .container,
-    ul{
+    ul,
+    .our-features{
         flex-direction: column;    
 }
+.box-one{
+    grid-template-columns: repeat(1, 1fr);
+}
+   
 .brand img{
     width: 100%;
 }
@@ -122,9 +161,17 @@ header{
 }
 /* responsive for large phone or tablet */
 @media (min-width:576px) and (max-width:1024px) {
-.container, ul{
+.container, 
+ul,
+.our-features{
     flex-direction: column;
+}
+.box-one{
+    grid-template-columns: repeat(1, 1fr);
+}
 
+.boz-one img{
+    width: 100%;
 }
 .brand img{
     width: 100%;
@@ -138,4 +185,7 @@ header{
 }
 .nav-tool ul li a{
     color: white;
+}
+.box-two{
+    text-align: center;
 }
