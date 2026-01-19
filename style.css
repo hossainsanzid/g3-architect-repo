@@ -102,7 +102,6 @@ header{
     gap: 15px;
 }
 .our-features-title{
-    padding: 0px 0px;
     font: 3rem;
     font-weight: 500;
 
@@ -130,6 +129,9 @@ header{
     ul,
     .our-features{
         flex-direction: column;    
+}
+.our-features-description{
+    padding: 0;
 }
 .box-one{
     grid-template-columns: repeat(1, 1fr);
