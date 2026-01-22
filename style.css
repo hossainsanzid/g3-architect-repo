@@ -223,6 +223,17 @@ header{
     align-items: center;
 }
 /* footer style */
+.footer{
+    max-width: 1050px;
+    height: 100px;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    margin: 100px auto;
+}
+.footer p{
+    text-align: center;
+    padding: 40px;
+}
 
 
 /* responsive for small device */
@@ -289,9 +300,7 @@ header{
     grid-template-columns: repeat(2, 1fr);
     margin: 50px 10pxpx;
 }
-
 }
-
 /* responsive for large phone or tablet */
 @media (max-width:1024px) {
 .container, 
@@ -343,6 +352,7 @@ ul,
     margin: 50px 50pxpx;
     justify-content: center;
 }
-
-
+.footer{
+    max-width: 650px; 
+}
 }
