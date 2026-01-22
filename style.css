@@ -60,7 +60,6 @@ header{
 .nav-tool ul li{
     list-style: none;
     padding: 0 20px;
-
 }
 .nav-tool ul li a{
     text-decoration: none;
@@ -73,8 +72,7 @@ header{
     max-width: 862px;
     margin: 0 auto;
     text-align: center;
-    padding: 30px 0;
-    
+    padding: 30px 0;   
 }
 .brand-title{
     margin: 10px 0;
@@ -94,7 +92,6 @@ header{
     align-items: center;
     gap: 30px;
     margin: 40px 150px;
-
 }
 .box-one{
     display: grid;
@@ -104,7 +101,6 @@ header{
 .our-features-title{
     font: 3rem;
     font-weight: 500;
-
 }
 .our-features-description{
     font-size: 1rem;
@@ -117,8 +113,7 @@ header{
 }
 #color-orange{
     font-weight: 700;
-    color: #FF900E;
-    
+    color: #FF900E;   
 }
 /* features-love section style */
 .features-love{
@@ -167,7 +162,6 @@ header{
     border-radius: 10px;
     margin-top: -70px;
     margin-left: -60px;
-
 }
 .white{
     font-size: 3rem;
@@ -176,7 +170,58 @@ header{
     line-height: 70px;
     color: white;
 }
+/* facts section style */
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    
+    
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #FF900E;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 40px 50px;
 
+}
+.fact-title{
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin: 24px 0;
+
+}
+.fact-description{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+.sponser{
+    margin: 50px 0;
+
+}
+.alignment{
+    text-align: center;
+
+}
+.sponser-title{
+    margin-bottom: 24px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    border-left: none;
+}
+.mini-card{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 50px 240px;
+    align-items: center;
+}
 /* footer style */
 
 
@@ -222,8 +267,7 @@ header{
     width: 430px;
 }
 .love-photo{
-    width: 100%;
-    
+    width: 100%;   
 }
 .main-content{
     margin-left: 10px;
@@ -234,13 +278,22 @@ header{
 .features-love{
     gap: 30px;
 }
+.card-container{
+    grid-template-columns: repeat(1, 1fr);
+}
+    
+.card{
+    margin: 20px 120px;
+}
+.mini-card{
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px 10pxpx;
 }
 
-
-
+}
 
 /* responsive for large phone or tablet */
-@media (min-width:576px) and (max-width:1024px) {
+@media (max-width:1024px) {
 .container, 
 ul,
 .our-features,
@@ -250,7 +303,6 @@ ul,
 .box-one{
     grid-template-columns: repeat(1, 1fr);
 }
-
 .boz-one img{
     width: 100%;
 }
@@ -270,7 +322,6 @@ ul,
 .box-two{
     text-align: center;
 }
-
 .features-love{
     
     align-items: center;
@@ -278,5 +329,20 @@ ul,
 .experience{
     margin-top: -70px;
     margin-left: -200px;
+
+}
+.card-container{
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;    
+}
+.card{
+    margin: 20px 360px;
+}
+.mini-card{
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px 50pxpx;
+    justify-content: center;
+}
+
 
 }
